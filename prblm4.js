@@ -1,5 +1,7 @@
-for ( i=1;i<=1000;i++){
-    console.log(i);
-    var multiply = i%3;
-    console.log(multiply);
+for ( i=1;i<=100;i++){
+    // console.log(i);
+  if(i%3===0 && i%5===0){
+     console.log('oe')
+  }
 }
+
