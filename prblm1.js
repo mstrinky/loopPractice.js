@@ -1,13 +1,13 @@
 for (i=1;i<=100;i++){
     //  console.log(i);
     if( i%3===0 && i%5===0){
-        console.log('FIZZBUZZ');
+        console.log(i + " " + "FIZZBUZZ");
     }
     else if(i%5===0){
-        console.log('BUZZ');
+        console.log(i + " " + 'BUZZ');
     }
     else if(i%3===0){
-        console.log('FIZZ');
+        console.log( i + " " + 'FIZZ');
     }
     else{
         console.log(i);
